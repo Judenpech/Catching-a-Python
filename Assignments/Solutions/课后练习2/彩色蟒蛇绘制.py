@@ -3,7 +3,7 @@ import turtle
 def drawSnake(rad,angle,len,neckrad):
     colors=['red','yellow','purple','blue','green']
     for i in range(len):
-        turtle.pencolor(colors[i%6])
+        turtle.pencolor(colors[i%5])
         turtle.circle(rad,angle)
         turtle.circle(-rad,angle)
     turtle.circle(rad,angle/2)
